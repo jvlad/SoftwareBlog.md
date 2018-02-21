@@ -1,8 +1,10 @@
 ---
-title: "Access Swift properties from Objective-C. Mixing Objective-C with Swift"
-date: 2018-02-21T08:55:30
+title: "Accessing Swift properties from Objective-C. Mixing Objective-C with Swift"
+date: 2018-02-20T08:55:30
 draft: true
 ---
+
+# Accessing Swift properties from Objective-C. Mixing Objective-C with Swift in Framework Target
 
 Example that worked for developing Framework Target using both Objective-c and Swift languages.
 
@@ -60,4 +62,4 @@ I still look for the answer. In general, I would like to have this<sup>1</sup> d
 [2]: E. g. the doc says:  
   > To be accessible and usable in Objective-C, a Swift class must be a descendant of an Objective-C class or it must be marked @objc.
 
-  That's not true. According to what compiler complains about, I can not use `@objc` mark for classes that are not derivatives of Objective-C classes (which often means derivatives of `NSObject`). Therefor, it's not logically correct to use **or** in that statement from the documentation. 
+  That's not true. According to what compiler complains about, I can not use `@objc` mark for classes that are not derivatives of Objective-C classes (which often means derivatives of `NSObject`). Therefor, it's not logically correct to use "**or**" in that statement from the documentation. 
